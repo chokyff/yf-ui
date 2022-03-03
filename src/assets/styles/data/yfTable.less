@@ -1,0 +1,32 @@
+.table{
+	th,tbody td{
+		padding: 12px 8px;
+    min-width: 0;
+    box-sizing: border-box;
+    text-overflow: ellipsis;
+    vertical-align: middle;
+    position: relative;
+    text-align: left;
+		border-bottom: 1px solid #ebeef5;
+	}
+	thead{
+		background-color: #ffffff;
+		color: #909399;
+    font-weight: 500;
+	}
+	tbody{
+		font-size: 14px;
+    color: #606266;
+	}
+	&.hasBorder{
+		th{
+			border-top: 1px solid #ebeef5;
+			border-left: 1px solid #ebeef5;
+		}
+		th:last-child{border-right: 1px solid #ebeef5;}
+		td{
+			border-left: 1px solid #ebeef5;
+		}
+		td:last-child{border-right: 1px solid #ebeef5;}
+	}
+}
